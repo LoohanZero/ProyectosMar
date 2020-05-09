@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: 'Karla', 'Arial', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    background-color: #ececfa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-container {
+    height: 95%;
+    display:flex;
+    align-items: center;
+}
+#card {
+    width: 650px;
+    height: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 30px 3px rgba(0, 0, 0, 0.2)
+
+}
+
+/* JOIN OUT COMMUNITY SECTION*/
+.join-us {
+    background-color: #ffffff;
+}
+
+.join-text-container {
+    padding: 40px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.join-text-container p {
+    color:  hsl(218, 22%, 67%);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.green-subtitle {
+    color: hsl(71, 73%, 54%);
+}
+
+/*MONTLY WHY SECTION*/
+
+.monthly-why-container {
+    display:flex;
+    height: 250px;
+    color: hsl(204, 43%, 93%);
+}
+
+.monthly-sub {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+}
+.why-us {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%, 0.8);
+    height: 100%;
+  
+}
+.padding-container {
+    padding-left: 40px;
+   
+}
+
+.month-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    padding-top: 10px;
+}
+.price-container {
+    display: flex;
+    align-items: center;
+}
+.price-container .price {
+    font-size: 40px;
+    color: hsl(204, 43%, 93%);
+    
+}
+
+.price-container p {
+    color: hsl(204, 43%, 93%, 0.5);
+    padding-left: 10px;
+}
+
+#sign-up-button {
+    background-color: hsl(71, 73%, 54%);
+    height: 45px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px 3px rgba(0, 0, 0, 0.2)
+}
+
+#sign-up-button:hover {
+    cursor: pointer;
+    background-color: hsl(71, 57%, 57%);
+}
+
+#sign-up-button:active {
+    cursor: pointer;
+    background-color: hsl(71, 77%, 44%);
+}
+
+
+.why-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    padding-top: 9px;
+}
+ul {
+    list-style: none;
+}
+li {
+    line-height: 20px;
+    font-size: 14px;
+    color: hsl(204, 43%, 93%, 0.5);
+    font-weight: bold;
+}
+h1 {
+    color: hsl(179, 62%, 43%);
+    padding: 10px 0;
+}
+
+
+h2 {
+    color: hsl(204, 43%, 93%);
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 22px;
+}
+

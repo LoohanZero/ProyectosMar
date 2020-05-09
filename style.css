@@ -1,0 +1,7 @@
+#cat-cards > p {
+    color: lightslategrey;
+}
+
+.card p {
+    color: firebrick;
+}
